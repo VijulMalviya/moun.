@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+html ,body{
+    width: 100%;
+    height:100%;
+    
+}
+/* body:-moz-user-disabled */
+.bg{
+    height: 100vh;
+    background-image: url('./images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    height: 10vh;
+    display: flex;
+    
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu{
+    color: white;
+    display: none;
+}
+.logo img{
+    width: 6vw;
+}
+.navlinks a , .socialmedia a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.navlinks a{
+    color: #9C9C9C;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.navlinks a:hover{
+    color: white;
+}
+.socialmedia a{
+    padding: 6px;
+    color: white;
+}
+nav .active{
+    color: white;
+}
+
+.center-logo{
+    position: relative;
+    height: 65vh; 
+}
+.center-logo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.bottom-content{
+    height: 25vh; 
+    text-align: center;
+}
+.bottom-heading{
+    font-family: 'Overlock', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 !important;
+
+}
+ .bottom-content .explore-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.modal-body a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+.modal-footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
