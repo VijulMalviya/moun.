@@ -1,90 +1,140 @@
 @import 'style.css';
 
 @media only screen and (max-width: 575.98px){
-    .center-logo{
-        height: 72vh; 
-    }
-    .bottom-content{
-        height: 18vh; 
-    }
-    .bottom-heading{
-        font-size: 1rem;
-    }
-    .navlinks{
-        display: none;
-    }
-    .socialmedia a{
-        display: none;
-    }
-    .menu{
-        display: initial;
-        position: absolute;
-        top: 50%;
-        left: 90%;
-        transform: translate(-10%,-50%);
-        -webkit-transform: translate(-10%,-50%);
-        -moz-transform: translate(-10%,-50%);
-        -ms-transform: translate(-10%,-50%);
-        -o-transform: translate(-10%,-50%);
+ .main-heading{
+     font-size: 4rem;
+ }
+ .inner-circle{
+     width: 85vw;
+     height: 50vh;
+ }
+ .book_btn{
+     width: 50%;
+     height: 5vh;
+     top: 55%;
+     transform: translate(-50%,45%);
+     -webkit-transform: translate(-50%,45%);
+     -moz-transform: translate(-50%,45%);
+     -ms-transform: translate(-50%,45%);
+     -o-transform: translate(-50%,45%);
 }
-    .logo img{
-        width: 15vw;
+.upper-heading img{
+    width: 22vw;
+}
+.upper-heading{
+     top: 35%;
+     transform: translate(-50%,65%);
+     -webkit-transform: translate(-50%,65%);
+     -moz-transform: translate(-50%,65%);
+     -ms-transform: translate(-50%,65%);
+     -o-transform: translate(-50%,65%);
+}
+.bottom-content img{
+    width: 80vw;
+}
+}
+@media only screen and (min-width:768px) and (max-width: 991.98px) {
+    .inner-circle{
+        width: 50vw;
+        height: 40vh;
     }
-    
+    .book_btn{
+        width: 25vh;
+        top: 60% ;
+        transform: translate(-50%, -40%);
+    }
+    .upper-heading{
+        top: 42% ;
+        transform: translate(-50%, -58%);
+        -webkit-transform: translate(-50%, -58%);
+        -moz-transform: translate(-50%, -58%);
+        -ms-transform: translate(-50%, -58%);
+        -o-transform: translate(-50%, -58%);
+}
+.upper-heading img{
+    width: 10rem;
+}  
+}
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .inner-circle{
+        width: 50vw;
+        height: 40vh;
+    }
+    .book_btn{
+        width: 20vh;
+        top: 60%;
+        transform: translate(-50%,-60%);
+        -webkit-transform: translate(-50%,-60%);
+        -moz-transform: translate(-50%,-60%);
+        -ms-transform: translate(-50%,-60%);
+        -o-transform: translate(-50%,-60%);
+}
+    .main-heading{
+        font-size: 10rem;
+    }
+    .upper-heading{
+        top: 42%;
+        transform: translate(-50%,-48%);
+        -webkit-transform: translate(-50%,-48%);
+        -moz-transform: translate(-50%,-48%);
+        -ms-transform: translate(-50%,-48%);
+        -o-transform: translate(-50%,-48%);
+}
+.upper-heading img{
+    width: 15rem;
+}
+}
 
-}
 
 @media only screen and (min-width: 575.98px) and (max-width: 767px) and (orientation:landscape) {
-    .bottom-heading{
-        font-size: 0.8rem;
+    .main-heading{
+        font-size: 4rem;
     }
-    .navlinks a , .socialmedia a{
-        font-size: 8px;   
-    }
-}
-
-
-@media only screen and (min-width:768px) and (max-width: 991.98px) {
-    .center-logo{
-        height: 72vh; 
-    }
-    .bottom-content{
-        height: 18vh; 
-    }
-    .bottom-heading{
-        font-size: 1.8rem;
-    }
-    .bottom-content .explore-link a{
-        font-size: 12px;   
-    }
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 1025px) and (orientation:landscape) {
-    .bottom-heading{
-        font-size: 0.8rem;
-    }
-    .navlinks a , .socialmedia a{
-        font-size: 10px;   
-    }
-    .bottom-content .explore-link a{
-        font-size: 8px;   
-    }
-}
-
-
-@media only screen and (min-width:992px) and (max-width:1099px) {
-    .center-logo{
-        height: 72vh; 
-    }
-    .bottom-content{
-        height: 18vh; 
-    }
-    .bottom-heading{
-        font-size: 2rem;
-    }
-    .bottom-content .explore-link a{
-        font-size: 16px;   
+    .book_btn{
+        width: 20%;
+        top: 68%;
     }
 
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation:landscape) {
+    .main-heading{
+        font-size: 5rem;
+    }
+    .book_btn{
+        width: 20%;
+        top: 68%;
+    }
+    .inner-circle{
+        width: 30vw;
+        height: 60vh;
+    }
+    .upper-heading{
+        top: 35%;
+    }
+    .upper-heading img{
+        width: 7rem;
+    }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) and (orientation:landscape) {
+    .main-heading{
+        font-size: 5rem;
+    }
+    .book_btn{
+        width: 20vh;
+    }
+    .inner-circle{
+        width: 40vw;
+        height: 50vh;
+    }
+    .upper-heading img{
+        width: 10rem;
+    }
+    
+}
+
+
+
+
+
+
